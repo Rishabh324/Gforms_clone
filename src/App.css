@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: #F0EBF8;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="file"]{
+  display:none;
+}
+
+.submission{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header, .qcard{
+  width: 57%;
+  background-color: white;
+  border-radius: 9px;
+  border: 0.1px solid rgb(215, 212, 212);
+  border-top: 12px solid #673AB7;
+}
+
+.qcard{
+  border-top: 0;
+}
+
+button,input[type="radio"], input[type="checkbox"]{
+  cursor: pointer;
+}
+
+label, select{
+  cursor: pointer;
+}
+
+input[type="radio"]{
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.header p{
+  font-size: 0.85rem;
+}
